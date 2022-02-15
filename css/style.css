@@ -1,0 +1,191 @@
+/* колір фону #FFFFFF*/
+/* колір нижнього фону   #2f303a; */
+/* колір тексту логотип #2196F3*/
+/* колір тексту #212121*/
+/* колір підтексту #757575*/
+:root {
+  --primery-text-color: #757575;
+  --totle-text-color: #212121;
+  --primery-bk-color: #ffffff;
+  --accent-color: #2196f3;
+  --fon-footer: #2f303a;
+  --filtr-cl-norm: #f5f4fa;
+}
+body {
+  background-color: var(--primery-bk-color);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  color: var(--totle-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.hero {
+  background-color: var(--fon-footer);
+}
+.logo-blu {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--totle-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.link.current {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact-link {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-adress .contact-link:hover,
+.site-adress .contact-link:focus {
+  color: var(--accent-color);
+}
+/*Hero*/
+.hero-title {
+  color: var(--primery-bk-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--primery-bk-color);
+}
+/*Sectoin*/
+
+/* feature */
+.feature-list .title {
+  color: var(--totle-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.feature-list .description {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* foto */
+.section-foto .title,
+.section-people .title {
+  color: var(--totle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+}
+/* people */
+.team {
+  background-color: var(--filtr-cl-norm);
+}
+.section-people .name {
+  color: var(--totle-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section-people .position {
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* footer */
+.logo-wight {
+  color: var(--primery-bk-color);
+}
+.main-footer {
+  background-color: var(--fon-footer);
+}
+.address {
+  color: var(--primery-bk-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-section-link {
+  text-decoration: none;
+}
+.a-footer .address:focus,
+.a-footer .address:hover,
+.a-footer .address-link:focus,
+.a-footer .address-link:hover {
+  color: var(--accent-color);
+}
+
+/* button */
+.button.primary {
+  border: inherit;
+  color: var(--primery-bk-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+}
+.button.primary:focus,
+.button.primary:hover {
+  background-color: #188ce8;
+}
+
+/* text-align: center;
+ */
+/* Уточнити по кнопкам!!!!! */
+
+/*  Уточнити по кнопкам!!! */
+.invisible {
+  color: var(--primery-bk-color);
+}
+.filter-web .btn-f {
+  border: inherit;
+  cursor: pointer;
+  background-color: var(--filtr-cl-norm);
+  font-family: Roboto, sans-serif;
+}
+.filter-web .btn-f:hover,
+.filter-web .btn-f:focus {
+  color: var(--primery-bk-color);
+  background-color: var(--accent-color);
+}
+
+.gallery .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--totle-text-color);
+}
+.gallery .description {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primery-text-color);
+}
+/* Галерея проктів картки */
+.people-team {
+  text-decoration: none;
+}
