@@ -17,6 +17,15 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
 ul {
   list-style: none;
 }
@@ -75,7 +84,7 @@ ul {
 }
 /*Sectoin*/
 
-/* feature */
+/* feature сильні сторони*/
 .feature-list .title {
   color: var(--totle-text-color);
   font-weight: 700;
@@ -133,6 +142,7 @@ ul {
 .address-section-link {
   text-decoration: none;
 }
+/* Фокус Ховер для адреси у Футері */
 .a-footer .address:focus,
 .a-footer .address:hover,
 .a-footer .address-link:focus,
@@ -140,13 +150,22 @@ ul {
   color: var(--accent-color);
 }
 
-/* button */
+/* button  Заказать услугу*/
 .button.primary {
+  border-radius: 4px;
+  padding: 10px 32px;
   border: inherit;
   color: var(--primery-bk-color);
   background-color: var(--accent-color);
   cursor: pointer;
-  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  /* display: flex;
+align-items: center;
+ */
+  letter-spacing: 0.06em;
 }
 .button.primary:focus,
 .button.primary:hover {
@@ -158,14 +177,23 @@ ul {
 /* Уточнити по кнопкам!!!!! */
 
 /*  Уточнити по кнопкам!!! */
+/* Заголовок Фільтра схований */
 .invisible {
   color: var(--primery-bk-color);
 }
+/* Кнопки Фільтра */
 .filter-web .btn-f {
+  border-radius: 4px;
+  padding: 6px 22px;
   border: inherit;
   cursor: pointer;
   background-color: var(--filtr-cl-norm);
   font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  /* text-align: center; */
 }
 .filter-web .btn-f:hover,
 .filter-web .btn-f:focus {
@@ -188,4 +216,27 @@ ul {
 /* Галерея проктів картки */
 .people-team {
   text-decoration: none;
+}
+/* Модуль 3 */
+/* 1 КОНТЕЙНЕР */
+/* Голова */
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  outline: 2px solid navy;
+}
+/* Герой Банер */
+.hero {
+  width: 1600px;
+  height: 600px;
+  padding: 0;
+  margin: auto;
+}
+.hero-title {
+  padding-top: 200px;
+}
+.btn-primary {
+  margin-bottom: 200px;
 }
