@@ -3,6 +3,7 @@
 /* колір тексту логотип #2196F3*/
 /* колір тексту #212121*/
 /* колір підтексту #757575*/
+/* ФУНКЦІЯ БАЗОВИХ КОЛЬОРІВ ВАР */
 :root {
   --primery-text-color: #757575;
   --totle-text-color: #212121;
@@ -11,12 +12,14 @@
   --fon-footer: #2f303a;
   --filtr-cl-norm: #f5f4fa;
 }
+/* ТІЛО */
 body {
   background-color: var(--primery-bk-color);
   color: var(--primery-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+/* ОНУЛЕННЯ ЗАГОЛОВКІВ ТА ТЕКСТУ ПО МАРЖЕНУ */
 h1,
 h2,
 h3,
@@ -29,6 +32,7 @@ p {
 ul {
   list-style: none;
 }
+/* ЛОГОТИП */
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--totle-text-color);
@@ -37,13 +41,15 @@ ul {
   line-height: 1.2;
   text-decoration: none;
 }
-.hero {
-  background-color: var(--fon-footer);
-}
 .logo-blu {
   color: var(--accent-color);
 }
+/* ГЕРОЙ */
+.hero {
+  background-color: var(--fon-footer);
+}
 
+/* НАВІГАЦІЯ ХЕДЕР */
 .site-nav .link {
   color: var(--totle-text-color);
   font-weight: 500;
@@ -52,7 +58,8 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.link.current {
+/* Вигляд "Студії" підсвіченой коли знаходишся на сторінці */
+.site-nav .link.current {
   color: var(--accent-color);
 }
 .site-nav .link:hover,
@@ -71,7 +78,7 @@ ul {
 .site-adress .contact-link:focus {
   color: var(--accent-color);
 }
-/*Hero*/
+/*ГЕРОЙ*/
 .hero-title {
   color: var(--primery-bk-color);
   font-weight: 900;
@@ -84,19 +91,20 @@ ul {
 }
 /*Sectoin*/
 
-/* feature сильні сторони*/
+/* feature СИЛЬНІ СТОРОНИ*/
 .feature-list .title {
   color: var(--totle-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
+/* ОПИС СИЛЬНИХ СТОРІН */
 .feature-list .description {
   font-size: 14px;
   line-height: 1.71;
 }
 
-/* foto */
+/* ЧИМ МИ ЗАЙМАЄМОСЬ - ФОТО */
 .section-foto .title,
 .section-people .title {
   color: var(--totle-text-color);
@@ -105,7 +113,7 @@ ul {
   line-height: 1.67;
   text-align: center;
 }
-/* people */
+/* НАША КОМАНДА */
 .team {
   background-color: var(--filtr-cl-norm);
 }
@@ -119,13 +127,14 @@ ul {
   font-size: 16px;
   line-height: 1.19;
 }
-/* footer */
+/* ФУТЕР ПІДВАЛ */
 .logo-wight {
   color: var(--primery-bk-color);
 }
 .main-footer {
   background-color: var(--fon-footer);
 }
+/* АДРЕСА У ФУТЕРІ */
 .address {
   color: var(--primery-bk-color);
   font-style: normal;
@@ -150,7 +159,7 @@ ul {
   color: var(--accent-color);
 }
 
-/* button  Заказать услугу*/
+/* КНОПКА button  Заказать услугу*/
 .button.primary {
   border-radius: 4px;
   padding: 10px 32px;
@@ -177,6 +186,8 @@ align-items: center;
 /* Уточнити по кнопкам!!!!! */
 
 /*  Уточнити по кнопкам!!! */
+
+/* П-О-Р-Т-Ф-О-Л-І-О */
 /* Заголовок Фільтра схований */
 .invisible {
   color: var(--primery-bk-color);
@@ -195,12 +206,13 @@ align-items: center;
 
   /* text-align: center; */
 }
+/* Фокус Ховер для Фільтра у Портфоліо */
 .filter-web .btn-f:hover,
 .filter-web .btn-f:focus {
   color: var(--primery-bk-color);
   background-color: var(--accent-color);
 }
-
+/* ГАЛЕРЕЯ */
 .gallery .title {
   font-weight: 700;
   font-size: 18px;
@@ -213,7 +225,7 @@ align-items: center;
   line-height: 1.87;
   color: var(--primery-text-color);
 }
-/* Галерея проктів картки */
+/* Галерея проЕктів картки */
 .people-team {
   text-decoration: none;
 }
