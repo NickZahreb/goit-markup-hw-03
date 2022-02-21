@@ -31,7 +31,9 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
 }
 /* ОНУЛЕННЯ ЗАГОЛОВКІВ ТА ТЕКСТУ ПО МАРЖЕНУ */
 h1,
@@ -149,9 +151,11 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+
   margin-left: auto;
   margin-right: auto;
 }
+
 .hero-title {
   max-width: 696px;
   text-align: center;
@@ -215,8 +219,6 @@ ul {
 /* НАША КОМАНДА */
 .section-people {
   background-color: var(--filtr-cl-norm);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 /* НАША КОМАНДА */
 .section-people .title {
@@ -228,7 +230,10 @@ ul {
 .team-list {
   display: flex;
 }
-/* .container-team { */
+.container-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .team-list .team + .team {
   margin-left: 30px;
@@ -253,7 +258,6 @@ ul {
   color: var(--primery-bk-color);
 }
 .main-footer {
-  margin: auto;
   background-color: var(--fon-footer);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -329,9 +333,24 @@ align-items: center;
 
 /* П-О-Р-Т-Ф-О-Л-І-О */
 /* Заголовок Фільтра схований */
-.invisible {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+.portfolio-page {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Кнопки Фільтра */
 .filter-web .btn-f {
   border-radius: 4px;
@@ -387,7 +406,6 @@ align-items: center;
 .gallery-flex {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
 }
 .flex-element {
   width: 370px;
