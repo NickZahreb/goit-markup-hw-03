@@ -224,8 +224,8 @@ ul {
 .section-people .title {
 }
 .section-people .description {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-list {
   display: flex;
@@ -386,6 +386,7 @@ align-items: center;
   padding-left: 24px;
   padding-bottom: 20px;
   padding-right: 24px;
+  padding-top: 20px;
   border-left: 1px solid #ececec;
   border-bottom: 1px solid #ececec;
   border-right: 1px solid #ececec;
