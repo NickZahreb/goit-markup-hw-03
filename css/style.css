@@ -220,10 +220,14 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 30px;
 }
 .section-people .position {
   font-size: 16px;
   line-height: 1.19;
+}
+.section-people .team {
+  text-align: center;
 }
 /* ФУТЕР ПІДВАЛ */
 .logo-wight {
@@ -254,6 +258,10 @@ ul {
 }
 .address-section-link {
   text-decoration: none;
+}
+.address-li {
+  margin-top: 0;
+  margin-bottom: 9px;
 }
 
 /* Фокус Ховер для адреси у Футері */
@@ -325,6 +333,7 @@ align-items: center;
 }
 /* ГАЛЕРЕЯ */
 .gallery-flex .title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
