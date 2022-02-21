@@ -45,22 +45,24 @@
       </div>
     </header>
     <main>
-      <!-- МЕНЮ -->
-      <div class="container">
-        <!-- ФІЛЬТР -->
-        <section>
-          <div>
+      <section>
+        <!-- МЕНЮ -->
+        <div class="container">
+
+          <!-- ФІЛЬТР -->
+
+          <section>
             <h1 class="invisible">Наши роботы</h1>
             <ul class="filter-web list">
-              <li><button class="btn-f" type="button">Все</button></li>
-              <li><button class="btn-f" type="button">Веб-сайты</button></li>
-              <li><button class="btn-f" type="button">Приложения</button></li>
-              <li><button class="btn-f" type="button">Дизайн</button></li>
-              <li><button class="btn-f" type="button">Маркетинг</button></li>
+              <li class="btn-marg"><button class="btn-f" type="button">Все</button></li>
+              <li class="btn-marg"><button class="btn-f" type="button">Веб-сайты</button></li>
+              <li class="btn-marg"><button class="btn-f" type="button">Приложения</button></li>
+              <li class="btn-marg"><button class="btn-f" type="button">Дизайн</button></li>
+              <li class="btn-marg"><button class="btn-f" type="button">Маркетинг</button></li>
             </ul>
-          </div>
-          <!-- ГАЛЕРЕЯ РОБІТ -->
-          <div class="gallery-box">
+
+            <!-- ГАЛЕРЕЯ РОБІТ -->
+
             <ul class="gallery-flex list">
               <li class="flex-element">
                 <a class="people-team" href="">
@@ -70,9 +72,9 @@
                     width="370"
                     height="294"
                   />
-                  <h2 class="title">Технокряк</h2>
+                  <div class="about"><h2 class="title">Технокряк</h2>
                   <p class="description item">Веб-сайт</p></a
-                >
+                ></div>
               </li>
               <li class="flex-element">
                 <a class="people-team" href="">
@@ -82,9 +84,9 @@
                     width="370"
                     height="294"
                   />
-                  <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                 <div class="about"> <h2 class="title">Постер New Orlean vs Golden Star</h2>
                   <p class="description item">Дизайн</p></a
-                >
+                ></div>
               </li>
               <li class="flex-element">
                 <a class="people-team" href="">
@@ -94,9 +96,9 @@
                     width="370"
                     height="294"
                   />
-                  <h2 class="title">Ресторан Seafood</h2>
+                 <div class="about"> <h2 class="title">Ресторан Seafood</h2>
                   <p class="description item">Приложение</p></a
-                >
+                ></div>
               </li>
               <li class="flex-element">
                 <a class="people-team" href="">
@@ -106,9 +108,9 @@
                     width="370"
                     height="294"
                   />
-                  <h2 class="title">Проект Prime</h2>
+                <div class="about">  <h2 class="title">Проект Prime</h2>
                   <p class="description item">Маркетинг</p></a
-                >
+                ></div>
               </li>
               <li class="flex-element">
                 <a class="people-team" href="">
@@ -118,9 +120,9 @@
                     width="370"
                     height="294"
                   />
-                  <h2 class="title">Проект Boxes</h2>
+               <div class="about">   <h2 class="title">Проект Boxes</h2>
                   <p class="description item">Приложение</p></a
-                >
+                ></div>
               </li>
               <li class="flex-element">
                 <a class="people-team" href="">
@@ -130,9 +132,9 @@
                     width="370"
                     height="294"
                   />
-                  <h2 class="title">Inspiration has no Borders</h2>
+               <div class="about">   <h2 class="title">Inspiration has no Borders</h2>
                   <p class="description item">Веб-сайт</p></a
-                >
+                ></div>
               </li>
               <li class="flex-element">
                 <a class="people-team" href="">
@@ -142,9 +144,9 @@
                     width="370"
                     height="294"
                   />
-                  <h2 class="title">Издание Limited Edition</h2>
+               <div class="about">   <h2 class="title">Издание Limited Edition</h2>
                   <p class="description item">Дизайн</p></a
-                >
+                ></div>
               </li>
               <li class="flex-element">
                 <a class="people-team" href="">
@@ -154,9 +156,9 @@
                     width="370"
                     height="294"
                   />
-                  <h2 class="title">Проект LAB</h2>
+               <div class="about">   <h2 class="title">Проект LAB</h2>
                   <p class="description item">Маркетинг</p></a
-                >
+                ></div>
               </li>
               <li class="flex-element">
                 <a class="people-team" href="">
@@ -166,26 +168,26 @@
                     width="370"
                     height="294"
                   />
-                  <h2 class="title">Growing Business</h2>
+                <div class="about">  <h2 class="title">Growing Business</h2>
                   <p class="description item">Приложение</p></a
-                >
+                ></div>
               </li>
             </ul>
-          </div>
-        </section>
-      </div>
+          </section>
+        </div>
+      </section>
     </main>
     <!-- ФУТЕР ПІДВАЛ -->
     <footer class="main-footer">
-      <div class="container logo-footer">
+      <div class="container">
         <!-- ЛОГО -->
         <a class="logo" href="./index.html"
           ><span class="logo-blu">Web</span
           ><span class="logo-wight">Studio</span></a
         >
         <!-- Адреса -->
-        <address>
-          <ul class="a-footer list-footer">
+        <address class="address">
+          <ul class="a-footer">
             <li class="address-li">
               <a
                 class="address-section-link"
@@ -199,7 +201,7 @@
                 ><span class="address-link">info@example.com</span></a
               >
             </li>
-            <li class="address-li">
+            <li class="address-li li">
               <a class="address-section-link" href="tel:+380991111111"
                 ><span class="address-link">+38 099 111 11 11</span></a
               >

@@ -56,12 +56,11 @@
       <!-- ГЕРОЙ -->
       <section class="hero">
         <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <div class="btn-primary">
-          <button type="button" class="button primary">Заказать услугу</button>
-        </div>
+
+        <button type="button" class="button primary">Заказать услугу</button>
       </section>
       <!--СИЛЬНІ СТОРОНИ-->
-      <section class="section">
+      <section class="section-side">
         <div class="container">
           <ul class="feature-list list">
             <li class="items">
@@ -112,6 +111,7 @@
             </li>
             <li class="items">
               <img
+                class="items-q"
                 src="./images/codding-front.jpg"
                 alt="codding-front"
                 width="370"
@@ -120,6 +120,7 @@
             </li>
             <li class="items">
               <img
+                class="items-q"
                 src="./images/codding-color.jpg"
                 alt="codding-color"
                 width="370"
@@ -143,8 +144,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Игорь Демьяненко</h3>
-              <p class="position item">Product Designer</p>
+              <div class="description">
+                <h3 class="name">Игорь Демьяненко</h3>
+                <p class="position">Product Designer</p>
+              </div>
             </li>
             <li class="team">
               <img
@@ -153,8 +156,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Ольга Репина</h3>
-              <p class="position item">Frontend Developer</p>
+              <div class="description">
+                <h3 class="name">Ольга Репина</h3>
+                <p class="position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team">
               <img
@@ -163,8 +168,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Николай Тарасов</h3>
-              <p class="position item">Marketing</p>
+              <div class="description">
+                <h3 class="name">Николай Тарасов</h3>
+                <p class="position">Marketing</p>
+              </div>
             </li>
             <li class="team">
               <img
@@ -173,8 +180,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Михаил Ермаков</h3>
-              <p class="position item">UI Designer</p>
+              <div class="description">
+                <h3 class="name">Михаил Ермаков</h3>
+                <p class="position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -182,15 +191,15 @@
     </main>
     <!--ФУТЕР ПІДВАЛ-->
     <footer class="main-footer">
-      <div class="container logo-footer">
+      <div class="container">
         <!-- ЛОГО -->
         <a class="logo" href="./index.html"
           ><span class="logo-blu">Web</span
           ><span class="logo-wight">Studio</span></a
         >
         <!-- Адреса -->
-        <address>
-          <ul class="a-footer list-footer">
+        <address class="address">
+          <ul class="a-footer">
             <li class="address-li">
               <a
                 class="address-section-link"
@@ -204,7 +213,7 @@
                 ><span class="address-link">info@example.com</span></a
               >
             </li>
-            <li class="address-li">
+            <li class="address-li li">
               <a class="address-section-link" href="tel:+380991111111"
                 ><span class="address-link">+38 099 111 11 11</span></a
               >
