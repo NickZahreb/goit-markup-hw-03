@@ -19,7 +19,19 @@
   --contact-color: #ffffff99;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+/* *,
+*::before,
+*::after {
+  box-sizing: inherit;
+} */
+
 body {
+  margin: 0;
+
   background-color: var(--primery-background-color);
   color: var(--primery-text-color);
   font-family: Roboto, sans-serif;
@@ -37,6 +49,15 @@ button {
 .list {
   list-style: none;
 }
+
+.aaaa {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  height: 100px;
+  background-color: green;
+}
+
 /* Logo */
 .logo {
   color: var(--logo-color);
@@ -236,4 +257,13 @@ button {
 .address-nav .link:hover,
 .address-nav .link:focus {
   color: var(--accent-color);
+}
+
+.aaaa {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  height: 100px;
+  background-color: green;
+  outline: #2196f3;
 }
