@@ -53,9 +53,15 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+/* Header */
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 /* Logo */
 .logo {
+  margin-right: 93px;
+
   color: var(--logo-color);
 
   font-family: "Raleway";
@@ -67,7 +73,18 @@ ul {
   color: var(--accent-color);
 }
 /* Site-nav */
+.site-nav {
+  display: flex;
+  padding-left: 0;
+}
+
+.site-nav .item:not(last-child) {
+  margin-right: 50px;
+}
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -81,6 +98,14 @@ ul {
   color: var(--accent-color);
 }
 /* Contacts-nav */
+
+.contacts-nav {
+  display: flex;
+  margin-left: auto;
+}
+.contacts-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .contacts-nav .link {
   color: var(--primery-text-color);
@@ -141,6 +166,12 @@ ul {
   letter-spacing: 0.03em;
 }
 /* Features */
+.features-list {
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
 .features-list .title {
   margin-bottom: 10px;
 
@@ -163,6 +194,7 @@ ul {
 }
 /* Images */
 .images-list {
+  display: flex;
   padding-bottom: 94px;
 }
 /* Team */
