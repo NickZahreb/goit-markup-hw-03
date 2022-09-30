@@ -280,7 +280,6 @@ ul {
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  background-color: aqua;
 }
 
 .product-list .item {
