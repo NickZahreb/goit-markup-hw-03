@@ -45,7 +45,7 @@ button {
   margin-right: auto;
   width: 1200px;
 
-  outline: 2px solid #2196f3;
+  /* outline: 2px solid #2196f3; */
 }
 h1,
 h2,
@@ -59,10 +59,13 @@ ul {
   display: block;
 }
 /* Header */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 /* Logo */
 .logo {
@@ -179,6 +182,7 @@ ul {
 
 .section-title {
   color: var(--title-text-color);
+  margin-bottom: 50px;
 
   /* font-weight: 700; */
   font-size: 36px;
@@ -270,6 +274,10 @@ ul {
   width: calc((100%-90px) / 4);
 
   margin-right: 30px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list .item:nth-child(4n) {
@@ -296,8 +304,6 @@ ul {
 }
 
 .product-list .title {
-  margin-top: 20px;
-
   color: var(--title-text-color);
 
   /* font-weight: 700; */
@@ -309,7 +315,7 @@ ul {
 }
 .product-list .description {
   margin-top: 4px;
-  margin-bottom: 20px;
+
   color: var(--primery-text-color);
 
   font-weight: 400;
@@ -319,6 +325,13 @@ ul {
 
   letter-spacing: 0.03em;
 }
+.product-list .lead {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
 /* Filter list btn */
 .section-filter {
   padding-top: 94px;
